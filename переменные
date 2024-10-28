@@ -1,0 +1,8 @@
+number_complet_home_works = (12)
+number_use_hours = (1.5)
+name_of_cours = ('Python')
+
+time_of_one_work = (float(number_use_hours / number_complet_home_works))
+
+print(('Курс'), name_of_cours,',','всего задач:', number_complet_home_works, ',' , 'затрачено часов:' , number_use_hours, ',' , 'среднее время выполнения', time_of_one_work)
+
